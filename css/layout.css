@@ -1,13 +1,14 @@
 :root {
-    --primary-color: #ff5d65;
-    --secondary-color: #d3b093;
-    --point-color: #333;
+    --primary-color:#ff5d65;
+    --secondary-color:#d3b093;
+    --point-color:#333;
 
-    --line-color: #ddd;
-    --b-color: #333;
-    --w-color: #fff;
+    --line-color:#ddd;
+    --b-color:#333;
+    --w-color:#fff;
+    --bg-color:#f9f9f9;
 
-    --inner-size: 129rem;
+    --inner-size:129rem;
 }
 
 html {
@@ -19,13 +20,15 @@ body {
     color: var(--b-color);
 }
 
-.innner {
+.inner {
     max-width: var(--inner-size);
     margin: 0 auto;
     width: 100%;
 }
 
-.default {}
+.default {
+
+}
 
 .default .title {
     max-width: var(--inner-size);
@@ -46,4 +49,11 @@ body {
     font-size: 1.8rem;
     font-weight: 300;
     text-align: center;
+}
+
+.default_btn {
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    color: var(--w-color);
+    background: var(--primary-color);
 }
